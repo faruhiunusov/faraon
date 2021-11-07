@@ -1,0 +1,160 @@
+body {
+    background-color:lightblue;
+    animation-name:test;
+    animation-duration:20s;
+    animation-iteration-count:infinite ;
+    animation-delay:10s;
+    -webkit-animation-name:test;
+    -webkit-animation-duration:20s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-delay:10s;
+}
+
+@keyframes test {
+    0% {
+        background-color:red;
+    }
+    25% {
+        background-color:green;
+    }
+    50% {
+        background-color:pink;
+    }
+    85% {
+        background-color:blue;
+    }
+    100% {
+        background-color:darkblue;
+    }
+}
+@-webkit-keyframes test {
+    0% {
+        background-color:red;
+    }
+    25% {
+        background-color:green;
+    }
+    50% {
+        background-color:pink;
+    }
+    85% {
+        background-color:blue;
+    }
+    100% {
+        background-color:yellow;
+    }
+}
+h2 {
+    text-align:center;
+    color:white;
+    text-shadow:2px 2px black,5px 5px 10px black;
+    font-weight:bold;
+    font-style:italic;
+    animation-name:text;
+    animation-duration:30s;
+    animation-delay:10s;
+    animation-iteration-count:infinite ;  
+    -webkit-animation-name:text;
+    -webkit-animation-duration:30s;
+    -webkit-animation-delay:10s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@keyframes text {
+    0% {
+        transform:rotateY(0deg);
+        text-shadow:2px 2px yellow,5px 5px 10px yellow;
+    }
+    50% {
+        transform:rotateY(300deg);
+        text-shadow:2px 2px blue,5px 5px 10px blue;
+    }
+    80% {
+        transform:rotateY(-300deg);
+        text-shadow:2px 2px red,5px 5px 10px red;
+    }
+    100% {
+        transform:rotateY(0deg);
+        text-shadow:2px 2px green,5px 5px 10px green;
+    }
+}
+
+@-webkit-keyframes text {
+    0% {
+        -webkit-transform:rotateY (0deg);
+        text-shadow:2px 2px yellow,5px 5px 10px yellow;
+        }
+    50% {
+        -webkit-transform:rotateY(300deg);
+        text-shadow:2px 2px blue,5px 5px 10px blue;   
+    }
+    80% {
+        -webkit-transform:rotateY(-300deg);
+        text-shadow:2px 2px red,5px 5px 10px red;
+    }
+    100% {
+        -webkit-transform:rotateY(0deg);
+        text-shadow:2px 2px green,5px 5px 10px green;
+    }
+}
+
+div {
+    width:60%;
+    height:200px;
+    margin:auto;
+    margin-top:130px;
+}
+#a {
+    background-color:black;
+    border:2px solid white;
+    width:80%;
+    padding:10px;
+    border-radius:30px 0 30px 0;
+    width:auto;
+    animation-name:lol;
+    animation-duration:30s;
+    animation-delay:10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    box-shadow:5px 5px 10px black;
+    -webkit-animation-name:lol;
+    -webkit-animation-duration:30s;
+    -webkit-animation-delay:10s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    
+}
+
+@keyframes lol {
+    0% {
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(3000deg);
+    }
+   100% {
+       transform:rotate(0deg);
+   }
+}
+
+@-webkit-keyframes lol {
+    0% {
+        -webkit-transform:rotate(0deg);
+            }
+     50% {  -webkit-transform:rotate(3000deg);
+    }
+    100% {
+        -webkit-transform:rotate(0deg);
+    }
+}
+#b {
+    padding:10px;
+    width:50%;
+    background-color:white;
+    border:2px solid grey;
+    margin:auto;
+    margin-bottom:0%;
+    transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    border-radius:30px 0 0 30px;
+}
