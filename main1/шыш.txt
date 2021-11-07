@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/fonts/PF Din Display/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/Circe/stylesheet.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top container">
+                    <a href="" class="header__link">
+                        <img src="/img/svg/logo.svg" alt="" class="header__logo">
+                    </a>
+                    <div class="header__hamburger-menu">
+                        <a href="">
+                            <img src="/img/svg/header__hamburger-menu.svg" alt="">
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="" class="header__item--links">Новости</a></li>
+                            <li class="header__item"><a href="" class="header__item--links">Наши арендаторы</a></li>
+                            <li class="header__item"><a href="" class="header__item--links">Аренда офисов</a></li>
+                            <li class="header__item"><a href="" class="header__item--links">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <a href="" class="header__btn">Московское шоссе, 41</a>
+                        <a href="" class="header__tel">+7 (846) 372-72-72</a>
+                    </div>
+                </div>
+                <div class="header__info">
+                    <div class="header__about">
+                        <h1 class="header__title-small title-small"> Это –</h1>
+                        <h1 class="header__title title">офисный центр класса А в Самаре</h1>
+                        <div class="header__btn2">О центре</div>
+                        <p class="header__desc">Сочетание современного дизайна, эффективных инженерных решений,
+                            комфортной среды и профессионального сервиса</p>
+                    </div>
+                    <div class="header__services">
+                        <h4 class="title__services">Географический <br> центр города</h4>
+                        <h4 class="title__services">Полный спектр профессиональных услуг</h4>
+                    </div>
+                </div>
+                <div class="header__rent">
+                    <div class="header__scroll-to-view">
+                        <img src="/img/svg/header__mouse-pic/Rectangle 30.svg" alt="">
+                        <img src="/img/svg/header__mouse-pic/Rectangle 31.svg" alt=""
+                            style="position: relative; left: -15.7px; top: -16px;">
+                        <img src="/img/svg/header__mouse-pic/Line 1.svg" alt=""
+                            style="position: relative; left: -27.5px; top: 85px;">
+                        <h6 class="header__view-details" style="position: relative; top: -28.5px; left: 35px;">Подробнее
+                        </h6>
+                    </div>
+                    <div class="header__rent--info">
+                        Аренда офисов<br>от 500 руб./м2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="news">
+        <div class="container">
+            <h1 class="news title">
+                Новости
+            </h1>
+            <nav class="news__navigation">
+                <div class="news__get">
+                    <span class="news__get--all news__get--selected">Все</span>
+                    <span class="news__get--by-rdc">от РДЦ</span>
+                    <span class="news__get--rentor-news">Новости арендаторов</span>
+                    <span class="news__get--media-about-us">СМИ о нас</span>
+                </div>
+                <div class="news__buttons">
+                    <button class="news__prev">Prev</button>
+                    <button class="news__next">Next</button>
+                </div>
+            </nav>
+
+            <div class="news__info">
+                <div class="news__post popular">
+                    <a href="" class="news__post--popular" style="background-image: url(/img/jpg/news_popular.jpg);">
+                        <h2 class="news__post--title">В РДЦ появились свободные торговые площади и офисы для аренды.
+                        </h2>
+                        <span class="news__post--date">21 апреля 2021 г.</span>
+                        <span class="news__post--views">541</span>
+                    </a>
+                </div>
+                <div class="news__post">
+                    <a href="" class="news__post--popular" style="background-image: url(/img/jpg/news_popular.jpg);">
+                        <h2 class="news__post--title">В РДЦ появились свободные торговые площади и офисы для аренды.
+                        </h2>
+                        <span class="news__post--date">21 апреля 2021 г.</span>
+                        <span class="news__post--views">541</span>
+                    </a>
+                </div>
+                <div class="news__post"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <h1 class="service title">
+                Сервис
+            </h1>
+            <div class="service__info">
+                <div class="service__post"></div>
+                <div class="service__post"></div>
+                <div class="service__post"></div>
+                <div class="service__post"></div>
+                <div class="service__post"></div>
+                <div class="service__post"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
